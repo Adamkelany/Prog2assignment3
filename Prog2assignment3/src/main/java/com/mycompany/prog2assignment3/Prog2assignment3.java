@@ -14,7 +14,7 @@ public class Prog2assignment3 {
         Scanner scanner = new Scanner(System.in);
         Course[] courses = new Course[5];
         
-        for (int i = 1; i < 2; i++) {
+        for (int i = 1; i < 6; i++) {
             System.out.println("Enter Course details" + (i));
             System.out.print("Enter course name:");
                 String name = scanner.nextLine();
@@ -30,7 +30,7 @@ public class Prog2assignment3 {
         
         System.out.println("Course Details:");
         
-        for (int i = 0; i < 1; i++) {
+        for (int i = 0; i < 5; i++) {
             Course course = courses[i];
             course.printCourseDetails();
         }
